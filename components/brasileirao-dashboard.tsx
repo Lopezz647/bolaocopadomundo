@@ -10,7 +10,7 @@ import { LoadingSkeleton } from "./loading-skeleton"
 // COLE SUA CHAVE DA API AQUI
 // Obtenha sua chave em: https://www.football-data.org/
 // ============================================
-const API_KEY = "1627991bbb1f423d83c9b25eb3d8b4d7"
+const API_KEY = process.env.NEXT_PUBLIC_API_TOKEN;
 
 const API_URL = "https://api.football-data.org/v4/competitions/BSA/matches"
 
