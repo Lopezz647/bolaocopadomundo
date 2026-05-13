@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', 
-  basePath: '/bolaocopadomundo',
-  
   typescript: {
     ignoreBuildErrors: true,
   },
