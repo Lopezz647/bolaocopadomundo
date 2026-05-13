@@ -12,7 +12,7 @@ import { LoadingSkeleton } from "./loading-skeleton"
 // ============================================
 const API_KEY = process.env.NEXT_PUBLIC_API_TOKEN;
 
-const API_URL = "https://corsproxy.io/?https://api.football-data.org/v4/competitions/BSA/matches"
+const API_URL = "/api/futebol/competitions/BSA/matches"
 
 interface ApiMatch {
   id: number
